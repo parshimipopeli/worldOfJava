@@ -8,7 +8,6 @@ public class Main {
 
         Monde monde = new Monde();
 
-        monde.PersonnageFactory();
         monde.afficherInformation();
 
     }

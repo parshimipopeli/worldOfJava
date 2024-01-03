@@ -11,7 +11,7 @@ public class Monde {
         Scanner sc = new Scanner(System.in);
         System.out.println("Veuillez entrez un nom de personnage");
         String nom = sc.nextLine();
-        Personnage personnage = new Personnage(100, 15, nom);
+        Personnage personnage = new Personnage(nom, 150, 10);
 
         System.out.println(nom + " à " + personnage.getPointDeVie() + " points de vie et occasionne " + personnage.getDegat() + " points de dégat par coup porté");
 
