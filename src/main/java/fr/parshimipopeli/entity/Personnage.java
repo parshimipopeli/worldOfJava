@@ -2,16 +2,12 @@ package fr.parshimipopeli.entity;
 
 import java.util.StringJoiner;
 
-public class Personnage {
+public class Personnage extends AbstractCombatant {
 
-    private Integer pointDeVie;
-    private Integer degat;
-    private String nom;
 
-    public Personnage(Integer pointDeVie, Integer degat, String nom) {
-        this.pointDeVie = pointDeVie;
-        this.degat = degat;
-        this.nom = nom;
+    public Personnage(String nom, Integer pointDeVie, Integer degat) {
+        super(nom, pointDeVie, degat);
+
     }
 
     public Integer getPointDeVie() {
