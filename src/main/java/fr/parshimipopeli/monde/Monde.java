@@ -13,12 +13,11 @@ public class Monde {
         String nom = sc.nextLine();
         Personnage personnage = new Personnage(nom, 150, 10);
 
-        System.out.println(nom + " à " + personnage.getPointDeVie() + " points de vie et occasionne " + personnage.getDegat() + " points de dégat par coup porté");
-
         return personnage;
     }
 
     public static void afficherInformation() {
+
         System.out.println(PersonnageFactory());
     }
 
