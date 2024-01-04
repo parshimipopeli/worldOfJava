@@ -1,8 +1,6 @@
 package fr.parshimipopeli;
 
 
-import fr.parshimipopeli.entity.Monstre;
-import fr.parshimipopeli.entity.Personnage;
 import fr.parshimipopeli.monde.Monde;
 
 public class Main {
