@@ -17,22 +17,18 @@ public class Monde {
         Personnage personnage = new Personnage(nom, 150, 10);
         afficherInformation(personnage);
         return personnage;
-    }
-
-    ;
+    };
 
     public static void afficherInformation(AbstractCombatant p) {
         System.out.println(p);
-    }
-
-    ;
+    };
 
     public static String[] debutNom = new String[]{
-            "Chat", "Chien", "Chaton", "Ours"
+            "Chat", "Chien", "Chaton", "Ours", "Cheval"
     };
 
     public static String[] finNom = new String[]{
-            "Mechant", "DeFeu", "DeLaMort", "Deglingo"
+            "Mechant", "DeFeu", "DeLaMort", "Deglingo", "Démoniaque"
     };
 
     public static Monstre MonstreFactory() {
@@ -41,9 +37,7 @@ public class Monde {
         Monstre monstre = new Monstre(nomMonstre, 100, 10);
         afficherInformation(monstre);
         return monstre;
-    }
-
-    ;
+    };
 
     public static void combat(Personnage personnage, Monstre monstre) {
         afficherInformation(personnage);
